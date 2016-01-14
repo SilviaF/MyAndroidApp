@@ -31,11 +31,15 @@ public class MainActivityFragment extends Fragment {
         String[] myForecastArray = {
                 "Today - Sunny - 88 / 63",
                 "Tomorrow - Foggy - 70 / 46",
-                "Weds - Cloudy  72 / 63",
-                "Thurs - Asteroids - 75 / 65",
+                "Wed - Cloudy  72 / 63",
+                "Thur - Asteroids - 75 / 65",
                 "Fri - Heavy Rain - 65 / 56",
                 "Sat - HELP TRAPPED IN WEATHERSTATION - 60 / 51",
-                "Sun - Sunny - 80 / 68"
+                "Sun - Sunny - 80 / 68",
+                "Mon - Sunny - 210 / 4168",
+                "Tue - Fuck this sun - 380 / 668",
+                "Wed - Okay it's raining - 80 / 68",
+                "Thur - Raining - 850 / 6668"
         };
 
         ArrayList<String> myWeather = new ArrayList<>(Arrays.asList(myForecastArray));
